@@ -1,0 +1,258 @@
+@charset "utf-8";
+/* CSS Document */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #FFF;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.1);
+}
+::-webkit-scrollbar-thumb {
+    background: #CCC;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.2);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #AAA;
+}
+::-webkit-scrollbar-thumb:active {
+    background: #888;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+a:link{
+color:#515151;
+text-decoration:none;
+}
+
+a:visited{
+color:#9B9691;
+text-decoration:none;
+}
+
+a:active{
+color:#959595;
+text-decoration:none;
+}
+
+a:hover{
+color:#000000;
+text-decoration:none;
+}
+
+a img{
+border:none;
+}
+
+body{
+	margin:0px auto;
+	min-height:100%;
+	background-image:url("../images/background.png");
+}
+
+p{
+	font: 1.025em "Annie Use Your Telescope", cursive;
+}
+
+h1{
+	font:3.5em "Cabin Sketch", sans-serif;
+}
+
+h4{
+	font: 1.4em "Annie Use Your Telescope", cursive;
+}
+
+h2{
+	font: 1.7em "Annie Use Your Telescope", cursive, bold;
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:0px;
+}
+
+h3{
+	font: 1.7em "Annie Use Your Telescope", cursive, bold;
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:30px;
+}
+
+#bottomright{
+	position:fixed;
+	right:0px;
+	bottom:0px;
+	height:551px;
+}
+
+#introduction{
+	background-image:url("../images/thought-bubble.png");
+	position:fixed;
+	height:350px;
+	width:874px;
+	background-repeat:no-repeat;
+	
+}
+
+#rightarrow{
+	position:fixed;
+	right:350px;
+	bottom:20px;
+	width:157px;
+	height:111px;
+}
+
+#leftarrow{
+	position:fixed;
+	right:550px;
+	bottom:20px;
+	height:111px;
+	width:157px;
+}
+
+#copytext{
+	text-align:center;
+	position:relative;
+	height:230px;
+	width:750px;
+	margin-top:0.9em;
+	margin-left:1.5em;
+	margin-right:1em;
+	margin:bottom:1em;
+	font-size:1.5em;
+}
+
+#section-container{
+	height:385px;
+	width:380px;
+	margin-top:150px;
+	margin-left:90px;
+	margin-right:auto;
+}
+
+#play-container{
+	height:385px;
+	width:380px;
+	margin-top:110px;
+	margin-left:100px;
+	margin-right:auto;
+}
+
+#section{
+	font:4em "Cabin Sketch", cursive;
+	margin-top:80px;
+	text-align:center;
+	padding-right:175px;
+}
+
+#footer{
+	position:absolute;
+	width:500px;
+	height:33px;
+	bottom:5px;
+	left:5px;
+}
+	
+#social-icon{
+	z-index:4;
+	margin:5px;
+}
+	
+#menu1{
+	z-index:3;
+	position:fixed;
+	bottom:300px;
+	right:305px;
+	font:3.5em "Cabin Sketch", cursive;
+	color:#515151;
+}
+	
+#menu2{
+	z-index:3;
+	position:fixed;
+	bottom:250px;
+	right:330px;
+	font:3.5em "Cabin Sketch", cursive;
+	color:#515151
+}
+
+#menu3{
+	z-index:3;
+	position:fixed;
+	bottom:200px;
+	right:355px;
+	font:3.5em "Cabin Sketch", cursive;
+	color:#515151
+}
+
+#menu4{
+	z-index:3;
+	position:fixed;
+	bottom:150px;
+	right:265px;
+	font:3.5em "Cabin Sketch", cursive;
+	color:#515151
+}	
+
+#face-container{
+	position:fixed;
+	margin:0px;
+	padding:0px;
+	height:720px;
+	width:1024px;
+	right:0px;
+	bottom:0px;
+}
+	
+#gallerybubble {
+	width:677px;
+	height:517px;
+	position:fixed;
+	margin-top:20px;
+	margin-left:20px;
+	background-image:url("../images/Gallery-Bubble.png");
+}
+
+#gallerycontainer{
+	display:block;
+	width:200px;
+	height:450px;
+	margin-right:auto;
+	padding-right:150px;
+	padding-top:70px;
+	margin-left:auto;
+}
+#gallerycontainer img{
+	height:150px;
+	margin-right:auto;
+	margin-left:auto;
+	display:block;
+}
+
+#galleryarticle{
+	width:320px;
+	height:390px;
+	overflow-y:scroll;
+	padding-left:100px;
+	margin-top:70px;
+}
+
+#galleryarticle img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#gallerytextsolo2 {
+	position:fixed;
+	top:360px;
+	left:80px;
+	width:400px;
+	font: 1em "Annie Use Your Telescope", cursive;
+}
+
+#contact {
+	font:1.7em "Annie Use Your Telescope", cursive;
+	position:relative;
+	margin-left:150px;
+	margin-top:100px;
+	width:350px;
+}

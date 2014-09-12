@@ -1,0 +1,4 @@
+    {
+        "less";
+    ["css/main.less", "beta/css/test.less"]
+    }

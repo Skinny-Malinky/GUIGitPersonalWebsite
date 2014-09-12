@@ -1,0 +1,317 @@
+div.banner
+{
+	height:197px;
+}
+
+div.banner img
+{
+	border:0px;
+}
+
+div.menubar
+{
+	height:37px;
+	margin-top:5px;
+	background-color: #F8981D;
+}
+
+a:link {color:#FFFFFF;text-decoration:none;}
+a:visited {color:#925f29;text-decoration:none;}
+
+
+div.menubar p
+{
+	font-family:"Futura", sans-serif;
+	font-size:1.3em;
+	color:#FFFFFF;
+	margin:3px;
+	text-align:center;
+	padding-top:3px;
+}
+
+div.top
+{
+	width:920px;
+	margin:auto;
+}
+
+div.mainArea
+{
+	margin:auto;
+	width:920px;
+	height: 700px;
+	background-color:#FFFFFF;
+	
+}
+
+div.picbox
+{
+	width:669px;
+	height:342px;
+	margin-top:8px;
+	background:url(../Images/elephant2.gif);
+	background-color:#FFFFFF;
+}
+
+div.content
+{
+	background-color:#FFFFFF;
+	width:669px;
+	margin-top:12px;
+	
+}
+
+div.content hr
+{
+	color:#F8981D;
+	width:669px;
+	background-color:#F8981D;
+	height:2px;
+	border:0px;
+}
+
+div.content h1
+{
+	font-family:"Georgia", serif;
+	font-size:1.75em;
+	color:#925f29;
+	
+}
+
+div.content p
+{
+	font-family:"Futura", sans-serif;
+	font-size:1em;
+	color:#F8981D;
+}
+
+div.subContent 
+{
+	background-color:#FFFFFF;
+	width:669px;
+	margin-top:12px;
+	padding:0.75em;
+}
+
+div.subContent hr
+{
+	color:#F8981D;
+	width:660px;
+	background-color:#F8981D;
+	height:2px;
+	border:0px;
+}
+
+div.subContent h2 
+{
+	font-family:"Georgia", serif;
+	font-size:1.5em;
+	color:#925f29;
+}
+
+div.subContent p 
+{
+	font-family:"Futura", sans-serif;
+	font-size:1em;
+	color:#F8981D;
+}
+
+div.linkDiv 
+{
+	width: 669px;
+	height: 100px;
+	padding: 10px;
+	font-family: "Futura", san-serif;
+	color:#925F29;
+	font-size: 1em;
+}
+
+div.login
+{
+	background-color:#F8981D;
+}
+
+div.search
+{
+	background-color:#F8981D;
+	padding-bottom:1px;
+}
+
+div.right_sidebar
+{
+	float: right;
+	background-color:#FFFFFF;
+	width:230px;
+}
+
+div.right_sidebar p
+{
+	font-family:"Futura", sans-serif;
+	font-size:1.2em;
+	color:#FFFFFF;
+}
+
+div.right_sidebar form
+{
+	padding-left:10px;
+	padding-bottom:1px;
+}
+
+div.search form
+{
+	font-family:"Futura", sans-serif;
+	font-size:1.2em;
+	color:#FFFFFF;
+}
+
+div.contactdetails
+{
+	font-family:"Futura", sans-serif;
+	font-size:0.8em;
+	color:#F8981D;
+
+	text-align: center;
+}
+
+div.contactdetails hr
+{
+	color:#925f29;
+	width:150px;
+	background-color:#925f29;
+	height:3px;
+	border:0px;
+	align: center;
+	
+}
+
+div.map
+{
+	margin:auto;
+	width:678px;
+	height:328px;
+	position:relative;
+	left:40px;
+}
+
+a.northamerica:link
+{
+	width:206px;
+	height:158px;
+	background:url(../Images/Map/NorthAmerica.png);
+	display:block;
+	background-repeat:no-repeat;
+}
+
+a.northamerica:hover
+{
+	width:206px;
+	height:158px;
+	background:url(../Images/Map/NorthAmerica hover.png);
+	display:block;
+	background-repeat:no-repeat;
+}
+
+a.southamerica:link
+{
+	width:206px;
+	height:169px;
+	background:url(../Images/Map/SouthAmerica.png);
+	display:block;
+	background-repeat:no-repeat;
+}
+
+a.southamerica:hover
+{
+	width:206px;
+	height:169px;
+	background:url(../Images/Map/SouthAmerica hover.png);
+	display:block;
+	background-repeat:no-repeat;
+}
+
+a.europe:link
+{
+	width:172px;
+	height:99px;
+	background:url(../Images/Map/Europe.png);
+	display:block;
+	background-repeat:no-repeat;
+}
+
+a.europe:hover
+{
+	width:172px;
+	height:99px;
+	background:url(../Images/Map/Europe hover.png);
+	display:block;
+	background-repeat:no-repeat;
+}
+
+a.africa:link
+{
+	width:172px;
+	height:228px;
+	background:url("../Images/Map/Africa.png");
+	display:block;
+	background-repeat:no-repeat;
+}
+
+a.africa:hover
+{
+	width:172px;
+	height:228px;
+	background:url("../Images/Map/Africa hover.png");
+	display:block;
+	background-repeat:no-repeat;
+}
+
+a.asia:link
+{	
+	width:300px;
+	height:188px;
+	background:url(../Images/Map/Asia.png);
+	display:block;
+	background-repeat:no-repeat;
+}
+
+a.asia:hover
+{	
+	width:300px;
+	height:188px;
+	background:url(../Images/Map/Asia hover.png);
+	display:block;
+	background-repeat:no-repeat;
+}
+
+a.oceania:link
+{
+	width:300px;
+	height:141px;
+	background:url(../Images/Map/Oceania.png);
+	display:block;
+	background-repeat:no-repeat;
+}
+
+a.oceania:hover
+{
+	width:300px;
+	height:141px;
+	background:url(../Images/Map/Oceania hover.png);
+	display:block;
+	background-repeat:no-repeat;
+}
+
+div.west
+{
+	float:left;
+}
+
+div.mid
+{
+	float:left;
+}
+
+div.east
+{
+	float:left;	
+}	

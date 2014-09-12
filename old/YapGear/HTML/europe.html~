@@ -1,0 +1,80 @@
+<html>
+	<head>
+		<LINK href="../CSS/stylesheet.CSS" rel="stylesheet" type="text/css">
+		<title>Yap Gear | Europe</title>
+	</head>
+	
+	<body>
+	
+		<div class="top"><!--stays on top regardless of what page is displayed-->
+		
+			<div class="banner">
+				<a href="index.html" alt="Homepage" title="Homepage"><img src="../Images/banner3.jpg"></a>
+
+			</div><!--banner-->
+		
+			<div class="menubar">
+				<p> <a class="menubar" href="../HTML/Index.html">Home</a> | <a class="menubar" href="../HTML/Forum.html">Forum</a> | <a class="menubar" href="../HTML/previousexperience.html">Previous Experience</a> | <a class="menubar" href="../HTML/infoandadvice.html">Info & Advice</a> | <a class="menubar" href="../HTML/possibleplaces.html">Possible Places</a> | <a class="menubar" href="../HTML/FAQs.html">FAQs</a> | <a class="menubar" href="../HTML/contactus.html">Contact Us</a></p>
+			</div><!--menubar-->
+		
+		</div><!--top-->
+		
+		<div class="mainArea">
+			
+			<div class="right_sidebar">
+			
+				<div class="login">
+					<form method="POST"><!--POST hides data entered-->
+					<p>Username<br /><input type="text" name="Username" /><br /><br />
+					Password<br /><input type="password" name="Password" />
+					<input type="submit" value="Login" /></p>
+					</form>
+				</div><!--login-->
+				
+				<div class="search">
+					<p><form action="http://www.google.co.uk/search" method="GET"><!-- GET sends the data in the address bar-->
+					Search<br />
+					<input type="text" name="q" />
+					<input type="submit" value="Search" />
+					</form></p>
+				</div><!--search-->
+						
+		</div><!--right_sidebar-->
+		<div class="content">
+		
+			<h1> Europe </h1><!--continent info page-->
+			
+			<hr />
+			<h2>  Spain </h2>
+			
+			<p> If it's good weather and great food that you want then Spain is definitely the place to be. Famous for tapas, paella, flamenco, fiestas, and siestas, Spain, is not just about the sun, sea and sand, but is also a country with rich history, culture and traditions. The arts are also flourishing in Spain and many of the most famous European artists, authors, dancers, actors, designers and film directors at the moment are Spanish. With Vibrant party cities like Madrid and Barcelona and quiet, traditional villages in Andalusia, Spain has the full spectrum, and there is always something new to discove</p>
+			<br> 
+			
+			<h2>  Norway </h2>
+				<p> Home to the stunning Northern Lights, the inspiration for the Philip Pullman's international best selling trilogy, beautiful Norway is also the land of the midnight sun. It boasts amazing wildlife, attracting thousands of visitors on whale safaris, or to the island of Svalbard to see Polar bears, or even to go Reindeer sledging. Modern Norway is also one of the wealthiest and most advanced nations in the world. Yet, the aboriginal Sami population retains a strong influence. So if you're looking for a country that is the perfect balance between modernity and preservation of the natural world then Norway awaits!
+				</p>
+			<br> 
+			
+			<h2>  Iceland </h2>
+				<p> Iceland is a great gap year destination, there are a lot of places to visit and a wide range work and volunteer opportunities.
+
+Iceland gap year jobs are popular, you could find summer working holiday jobs, or in winter find seasonal employment at a resort in Iceland. You could take a TEFL course and then find gap year teaching jobs in Iceland, there are opportunities all year round.
+
+Taking a Iceland gap year tour is a great way to meet new people. You can also find Iceland gap year volunteer placements.</p>
+			<br> 
+			
+			<h2>  Romania </h2>
+				<p> Visit Eastern Europe and take a gap year in Romania! Explore the capital city Bucharest with its rustic European charm or escape to the stunning countryside.
+
+Volunteer in Romania at orphanages or with displaced ethnic groups which is popular with people on gap years in Eastern Europe. Paid gap year jobs in Romania can be difficult to find. But you could take part in voluntary internships and gap year work placements throughout Romania. By taking a TEFL course you will be able to teach English in Romania.
+
+Taking a gap year tour in Romania is a great way to explore. If you visit the Transylvanian Alps there are a lot of gap year adventure sports to participate in such as hiking, mountain biking and skiing.</p>
+			<br>
+			
+			<h2>  Zambia </h2>
+				<p> The African country of Zambia is often ignored by travellers visiting Victoria Falls who, instead, generally choose to spend their time on the other side of the Zambezi River in neighbouring Zimbabwe. Travellers who don't go over the border in to Zambia are, however, really missing out. Aside from being an excellent alternative base for visiting the Victoria Falls and the Zambezi River, Zambia is a beautiful country in its own right and is home to some superb national parks teeming with a wide variety of African wildlife. The people of Zambia are also extremely welcoming and friendly and, if you are looking to visit somewhere a little more off the beaten track during your gap year in Africa, then Zambia is an excellent option.</p>
+		</div>
+		</div>
+		
+	</body>
+</html>
