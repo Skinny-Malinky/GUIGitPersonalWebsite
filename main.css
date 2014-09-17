@@ -151,10 +151,7 @@ video#bgvid {
   font-family: 'sanchez';
   text-align: center;
 }
-#old h3 {
-  font-size: 2em;
-  margin: 0px;
-}
+
 #jsbutton {
   position: absolute;
   bottom: 20px;

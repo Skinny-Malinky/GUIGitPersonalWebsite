@@ -1,7 +1,3 @@
-p {
-    font-size: 1.1em;
-    font-style: 'roboto slab';
-}
 .container {
     background: url("../images/bg.png");
     background-repeat: repeat;
@@ -28,19 +24,19 @@ video#bgvid {
     display: hidden;
     z-index: -1;
 }
-.circleimg(@cwidth) {
-    width: @cwidth;
+@mixin circleimg($cwidth) {
+    width: $cwidth;
 
-height: @cwidth;
+height: $cwidth;
 
-border-radius: @cwidth;
+border-radius: $cwidth;
 
--webkit-border-radius: @cwidth;
+-webkit-border-radius: $cwidth;
 
--moz-border-radius: @cwidth;
+-moz-border-radius: $cwidth;
 
 }
-.shadow {
+@mixin shadow {
     box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
@@ -50,6 +46,7 @@ border-radius: @cwidth;
     height: auto;
     width: 580px;
     margin: 0px;
+    text-align: center;
     h1 {
         font-size: 5.25em;
         margin-bottom: 0px;
@@ -63,45 +60,18 @@ border-radius: @cwidth;
         margin-top: -10px;
         margin-bottom: 7px;
     }
-    button {
-        width: inherit;
-        margin-top: 0px;
-    }
 }
 .links {
     p {
         margin: 0px;
         text-align: center;
         margin-top: 10px;
-        font-size: 1.1em;
+        font: 1.1em;
     }
     a {
         margin: 0px;
         text-align: center;
-        margin-top: 10px;
         font-size: 1.1em;
-        display: none;
-    }
-    a#beh {
-        display: none;
-    }
-    a#flick {
-        display: none;
-    }
-    a#last {
-        display: none;
-    }
-    a#twit {
-        display: none;
-    }
-    a#blog {
-        display: none;
-    }
-    a#cv {
-        display: none;
-    }
-    u {
-        display: none;
     }
 }
 .content {
@@ -118,7 +88,7 @@ border-radius: @cwidth;
         margin-bottom: 0px;
     }
     p {
-        font-family: 'courier new';
+        font-family: 'Roboto Slab';
     }
 }
 .projects {
@@ -128,7 +98,7 @@ border-radius: @cwidth;
     height: 200px;
     p {
         font-family: 'Roboto Slab';
-        font-size: : 3em;
+        font-size: 3em;
         overflow-y: scroll;
         height: inherit;
     }
@@ -147,25 +117,15 @@ border-radius: @cwidth;
     width: 200px;
     float: right;
     img {
-        .circleimg(200px);
-        .shadow();
-    }
-}
-#old {
-    position: absolute;
-    bottom: 20px;
-    right: 100px;
-    font-family: 'sanchez';
-    text-align: center;
-    h3 {
-        font-size: 2em;
-        margin: 0px;
+        @include circleimg(200px);
+        @include shadow();
     }
 }
 #jsbutton {
-    position: absolute;
+    position: relative;
     bottom: 20px;
-    left: 100px;
+    margin-left: auto;
+    margin-right:auto;
 }
 .discuss {}::-webkit-scrollbar {
     height: 16px;
