@@ -1,4 +1,4 @@
-.shadow {
+@mixin shadow {
     box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
@@ -21,7 +21,7 @@ a:active {
     position: absolute;
     top: 0px;
     left: 0px;
-    background-image: url('../../images/bg.png');
+    background-image: url('../images/bg.png');
 }
 #container {
     width: 1024px;
@@ -36,7 +36,7 @@ a:active {
     height: 50px;
     top: 0px;
     background-color: white;
-    .shadow();
+    @include shadow();
     #topcontent {
         margin-top: 10px;
         margin-left: auto;
@@ -64,7 +64,7 @@ a:active {
         }
     }
 }
-#feed {} #addrss {
+#addrss {
     margin: 0px;
     button {
         margin: 0px;
@@ -79,11 +79,10 @@ a:active {
     white-space: normal;
     text-overflow: ellipsis;
     float: left;
-    display: none;
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 40px;
-    .shadow();
+    @include shadow();
     p {
         font-family: 'Roboto Slab';
         font-weight: 100;
