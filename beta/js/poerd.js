@@ -61,20 +61,31 @@ function parsePost(data) {
 
 function printPost(xml, title, description, link, image, pubdate, i) {
     //check date
+    var newdate = pubdate.text();
+    $('#container').each(function () {
+            var date = $(this.attr('id');
+                if (date === null) {
+                    $(this).after('<a id = \"' + pubdate.text() + '\" href = \"' + link.text() + '\">' + '<div class=\"newpost\">' + '<img src=\"' + image.text() + '\" \/>' + '<article class=\"extract\">' + '<h1>' + title.text() + '<\/h1>' + '<p>' + description.text() + '<\/p>' + '<\/article>' + '<\/div>' + '<\/a>');
+                } else if (newdate > date) {
+                    //print
+                    $(this).before('<a id = \"' + pubdate.text() + '\" href = \"' + link.text() + '\">' + '<div class=\"newpost\">' + '<img src=\"' + image.text() + '\" \/>' + '<article class=\"extract\">' + '<h1>' + title.text() + '<\/h1>' + '<p>' + description.text() + '<\/p>' + '<\/article>' + '<\/div>' + '<\/a>');
+                    $('.newpost').fadeIn(i * 500);
+                }
 
+            });
+    }
 
     // Fill HTML Elements
-    $('#container ').append('<a id = \"' + pubdate.text() + '\" href = \"' + link.text() + '\">' + '<div class=\"newpost\">' + '<img src=\"' + image.text() + '\" \/>' + '<article class=\"extract\">' + '<h1>' + title.text() + '<\/h1>' + '<p>' + description.text() + '<\/p>' + '<\/article>' + '<\/div>' + '<\/a>');
-    $('.newpost').fadeIn(i * 500);
-}
-//$(this).find('li').text();
-//$(".newpost h1 ").html(title.text());
+
+
+    //$(this).find('li').text();
+    //$(".newpost h1 ").html(title.text());
 
 
 
 
 
-/*function fetchIt() {
+    /*function fetchIt() {
     $.post('fetch.php', {
             url: 'http://wtfpod.libsyn.com/rss'
         },
@@ -90,13 +101,13 @@ function printPost(xml, title, description, link, image, pubdate, i) {
     //});
 }*/
 
-/*var xml = $.parseXML(data),
+    /*var xml = $.parseXML(data),
                     xml = $(xmlDoc),
                     $title = $xml.find('title');*/
-//var html = $.parseHTML(data);
-//alert($(html).find('title').text());
+    //var html = $.parseHTML(data);
+    //alert($(html).find('title').text());
 
-/*  DEBUGGING TOOLS
+    /*  DEBUGGING TOOLS
 $(document).ready(function () {
     alert('It works!');
 });
