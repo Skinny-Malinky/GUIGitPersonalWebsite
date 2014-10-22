@@ -19,16 +19,20 @@ a:active {
 }
 
 /* line 18, ../sass/test.scss */
+body {
+  background-image: url("../images/bg.png");
+}
+
+/* line 21, ../sass/test.scss */
 #background {
   min-height: 100%;
   min-width: 100%;
   position: absolute;
   top: 0px;
   left: 0px;
-  background-image: url("../images/bg.png");
 }
 
-/* line 26, ../sass/test.scss */
+/* line 28, ../sass/test.scss */
 #container {
   width: 1024px;
   margin-top: 80px;
@@ -37,7 +41,7 @@ a:active {
   margin-left: auto;
 }
 
-/* line 33, ../sass/test.scss */
+/* line 35, ../sass/test.scss */
 #topbar {
   width: 100%;
   position: absolute;
@@ -48,7 +52,7 @@ a:active {
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 }
-/* line 40, ../sass/test.scss */
+/* line 42, ../sass/test.scss */
 #topbar #topcontent {
   margin-top: 10px;
   margin-left: auto;
@@ -58,7 +62,7 @@ a:active {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 48, ../sass/test.scss */
+/* line 50, ../sass/test.scss */
 #topbar #topcontent h1 {
   font-family: 'Sanchez';
   font-weight: 401;
@@ -66,31 +70,31 @@ a:active {
   color: black;
   display: inline;
 }
-/* line 55, ../sass/test.scss */
+/* line 57, ../sass/test.scss */
 #topbar #topcontent p {
   font-family: 'Roboto Slab';
   font-weight: 100%;
   color: black;
   display: inline;
 }
-/* line 61, ../sass/test.scss */
+/* line 63, ../sass/test.scss */
 #topbar #topcontent form {
   display: inline;
   float: right;
 }
 
-/* line 67, ../sass/test.scss */
+/* line 69, ../sass/test.scss */
 #addrss {
   margin: 0px;
 }
-/* line 69, ../sass/test.scss */
+/* line 71, ../sass/test.scss */
 #addrss button {
   margin: 0px;
   padding: 0px;
   border: 0px;
 }
 
-/* line 75, ../sass/test.scss */
+/* line 77, ../sass/test.scss */
 .newpost {
   background-color: white;
   height: 400px;
@@ -105,18 +109,18 @@ a:active {
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 }
-/* line 86, ../sass/test.scss */
+/* line 88, ../sass/test.scss */
 .newpost p {
   font-family: 'Roboto Slab';
   font-weight: 100;
   margin-top: 0px;
 }
-/* line 91, ../sass/test.scss */
+/* line 93, ../sass/test.scss */
 .newpost img {
   height: 200px;
   width: 200px;
 }
-/* line 95, ../sass/test.scss */
+/* line 97, ../sass/test.scss */
 .newpost h1 {
   font-family: 'Sanchez';
   font-weight: 401;
@@ -124,7 +128,7 @@ a:active {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-/* line 102, ../sass/test.scss */
+/* line 104, ../sass/test.scss */
 .newpost .extract {
   margin: 15px;
   margin-top: 6px;
