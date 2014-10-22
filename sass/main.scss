@@ -10,13 +10,13 @@ h3 {
         margin-top: 0px;
         margin-bottom: 5px;
     }
-
-.container {
+body{   
     background: url("../images/bg.png");
     background-repeat: repeat;
     min-height: 100%;
     min-width: 100%;
-    position: absolute;
+}
+.container {
     left: 0px;
     top: 0px;
     z-index: -2;
