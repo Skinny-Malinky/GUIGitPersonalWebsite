@@ -23,13 +23,7 @@ function getNode(xml, n, i) {
     return info;
 }
 
-function getURL(xml, n, i) {
-    var info = $(xml).find(n).eq(i);
-    return info;
-}
-
 function parsePost(data) {
-	//xml is a string of the RSS feed
     var xml = data,
         xmlDoc = $.parseXML(xml),
         $xml = $(xmlDoc);
@@ -40,7 +34,7 @@ function parsePost(data) {
         //Find XML elements
         var title = getNode(xml, 'title', i);
         var description = getNode(xml, 'description', i);
-        var link = getURL(xml, 'enclosure*', i);
+        var link = getNode(xml, 'link', i);
         var image = getNode(xml, 'url', 0);
         var pubdate = getNode(xml, 'pubDate', i);
         printPost(xml, title, description, link, image, pubdate, i);
@@ -70,7 +64,7 @@ function printPost(xml, title, description, link, image, pubdate, i) {
 
 
     // Fill HTML Elements
-    $('#container ').append('<a id = \"' + pubdate.text() + '\" href=\"' + link.text() + '\">' + '<div class=\"newpost\">' + '<img src=\"' + image.text() + '\" \/>' + '<article class=\"extract\">' + '<h1>' + title.text() + '<\/h1>' + '<p>' + description.text() + '<\/p>' + '<\/article>' + '<\/div>' + '<\/a>');
+    $('#container ').append('<a id = \"' + pubdate.text() + '\" href = \"' + link.text() + '\">' + '<div class=\"newpost\">' + '<img src=\"' + image.text() + '\" \/>' + '<article class=\"extract\">' + '<h1>' + title.text() + '<\/h1>' + '<p>' + description.text() + '<\/p>' + '<\/article>' + '<\/div>' + '<\/a>');
     $('.newpost').fadeIn(i * 500);
 }
 //$(this).find('li').text();
