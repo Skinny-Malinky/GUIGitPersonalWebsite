@@ -19,18 +19,33 @@
 </head>
 
 <body>
+    <div id="background"></div>
     <div class="container">
+        <!--                PAGE FACADE                     -->
+        <div id="intro">
+            <h1>Hello! I'm Struan.</h1>
+            <p>I'm a digital interaction design graduate who can do shit and make website and all that shit so hire me and I'll be your best mate.</p>
+        <button class = "btn md ghost fader" style="float:right;">Show Me More...</button>
+        </div>
+        
+        
+        
+        
+        
+        
+        <!--                PORTFOLIO                       -->
         <div id="topbar">
             <span class="title">
                 <h1>Struan Fraser</h1>
+                <h3>- Digital Interaction Design -</h3>
                 <h2><a href="mailto:struan.fraser@gmail.com?Subject=Hi%20Struan!">struan.fraser@gmail.com |</a> <a href="http://twitter.com/struanfraser">@struanfraser |</a> <a href="tel:07773125813">07773125813</a></h2>   
                 <hr />
             <span class = "links">
-                <p><a href="https://www.behance.net/struanfraser" id="beh">BEHANCE | </a><a href="https://www.flickr.com/photos/totally_lemonified/" id="flick">FLICKR | </a><a href="http://www.last.fm/user/Totally-Lemon" id="last">LASTFM | </a><a href="https://twitter.com/struanfraser" id="twit">TWITTER | </a><a href="http://struanfraser.co.uk/blog/" id="blog">BLOG | </a><a href="http://struanfraser.co.uk/sfrasercv.pdf" alt="A link to Struan's CV" id="cv">CV</a></p>
+                <p><a href="https://www.behance.net/struanfraser">BEHANCE | </a><a href="https://www.flickr.com/photos/totally_lemonified/">FLICKR | </a><a href="http://www.last.fm/user/Totally-Lemon">LASTFM | </a><a href="https://twitter.com/struanfraser">TWITTER | </a><a href="http://struanfraser.co.uk/blog/">BLOG | </a><a href="http://struanfraser.co.uk/sfrasercv.pdf" alt="A link to Struan's CV">CV</a></p>
             </span>
             </span>
         </div>
-        <div id="background"></div>
+
         <div class="content">
             <a href="highfive.html" class="ajax-popup-link">
                 <span class="newpost">
@@ -74,7 +89,6 @@
                 </article>
                             </span>
             </a>
-            <div id="clear"></div>
             <a href="highfive.html" class="ajax-popup-link">
                 <span class="newpost">
                 <img src="images/highfive.png" alt="An image of Struan's High-Five-O-Meter project." />
@@ -113,8 +127,6 @@
                             </span>
             </a>
 
-            <div id="clear"></div>
-
             <a href="podcast.html" class="ajax-popup-link">
                 <span class="newpost">
                 <img src="images/podcast-webapp-face.jpg" alt="A screenshot of a podcast management web-app." />
@@ -152,36 +164,36 @@
                     </article>
                 </span>
             </a>
+            <div id="clear"></div>
+            <footer>
+                <p>Made by me, Struan</p>
+            </footer>
         </div>
-
-        <footer>
-            <p>Made by me, Struan</p>
-        </footer>
     </div>
+</body>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script>
-        window.jQuery || document.write("<script src='javascripts/jquery-2.1.1.min.js'>\x3C/script>")
-    </script>
-    <script src='javascripts/modernizr-2.0.6.min.js'></script>
-    <script src='javascripts/plugins.js'></script>
-    <script src='javascripts/script.js'></script>
-    <script>
-        var _gaq = [["_setAccount", "UA-23855451-1"], ["_trackPageview"], ["_trackPageLoadTime"]];
-        (function (d, t) {
-            var g = d.createElement(t),
-                s = d.getElementsByTagName(t)[0];
-            g.async = 1;
-            g.src = ("https:" == location.protocol ? "//ssl" : "//www") + ".google-analytics.com/ga.js";
-            s.parentNode.insertBefore(g, s)
-        }(document, "script"));
-    </script>
-    <!--[if lt IE 7]>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write("<script src='javascripts/jquery-2.1.1.min.js'>\x3C/script>")
+</script>
+<script src='javascripts/modernizr-2.0.6.min.js'></script>
+<script src='javascripts/plugins.js'></script>
+<script src='javascripts/script.js'></script>
+<script>
+    var _gaq = [["_setAccount", "UA-23855451-1"], ["_trackPageview"], ["_trackPageLoadTime"]];
+    (function (d, t) {
+        var g = d.createElement(t),
+            s = d.getElementsByTagName(t)[0];
+        g.async = 1;
+        g.src = ("https:" == location.protocol ? "//ssl" : "//www") + ".google-analytics.com/ga.js";
+        s.parentNode.insertBefore(g, s)
+    }(document, "script"));
+</script>
+<!--[if lt IE 7]>
     <script src='//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js'></script>
     <script>
       window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})});
     </script>
     <![endif]-->
-</body>
 
 </html>
