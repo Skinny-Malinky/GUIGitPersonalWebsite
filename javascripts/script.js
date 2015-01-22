@@ -18,11 +18,21 @@ $(document).ready(function () {
         mainClass: 'mfp-fade'
     });
     $('.fader').click(function (disappear) {
-        $('#intro').fadeOut(400, portFade());
+        $('#intro').slideUp(400, portSlide());
+    });
+    
+    $('.back').click(function (back) {
+        $('.back').slideUp();
+        $('.content').slideUp(400, introSlide());
     });
 
-    function portFade(){
-        $('.content').fadeIn();
-        //#topbar
+    function introSlide(){
+        $('#intro').slideDown();
+    }
+
+    function portSlide(){
+        $('.content').slideDown();
+        $('.back').slideDown();       
+        //#topba
     };
 });
