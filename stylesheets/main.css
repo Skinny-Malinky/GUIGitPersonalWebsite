@@ -57,12 +57,69 @@ footer p {
   color: white;
 }
 
-/* line 67, ../sass/main.scss */
+/* line 68, ../sass/main.scss */
 .fader {
   display: block;
 }
 
-/* line 70, ../sass/main.scss */
+/* line 71, ../sass/main.scss */
+.contact {
+  max-width: 450px;
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* line 76, ../sass/main.scss */
+.contact .icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  float: left;
+  margin: 20px;
+  box-shadow: 0 0 15px black;
+  -webkit-box-shadow: 0 0 15px black;
+  -moz-box-shadow: 0 15px black;
+  background-color: white;
+  border-width: thick;
+  border-style: dotted;
+}
+/* line 84, ../sass/main.scss */
+.contact .icon:hover {
+  background-color: #d9d9d9;
+  transition: .2s ease;
+}
+
+/* line 90, ../sass/main.scss */
+#twitter {
+  border-color: #5ea9dd;
+}
+/* line 93, ../sass/main.scss */
+#twitter img {
+  margin-top: 26px;
+  margin-left: 22px;
+}
+
+/* line 98, ../sass/main.scss */
+#gmail {
+  border-color: #d54d40;
+}
+/* line 100, ../sass/main.scss */
+#gmail img {
+  margin: 20px;
+}
+
+/* line 104, ../sass/main.scss */
+#wordpress {
+  border-color: #464646;
+}
+/* line 106, ../sass/main.scss */
+#wordpress img {
+  margin: 15px;
+}
+
+/* line 111, ../sass/main.scss */
 #background {
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -81,7 +138,7 @@ footer p {
   padding: 0px;
 }
 
-/* line 82, ../sass/main.scss */
+/* line 123, ../sass/main.scss */
 #container {
   margin: 0px;
   padding: 0px;
@@ -89,38 +146,42 @@ footer p {
   min-width: 100%;
 }
 
-/* line 88, ../sass/main.scss */
+/* line 130, ../sass/main.scss */
 #clear {
   clear: both;
 }
 
-/* line 91, ../sass/main.scss */
+/* line 134, ../sass/main.scss */
 #intro {
   color: white;
   width: 900px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20%;
+  margin-top: 15%;
   text-shadow: 2px 2px 2px black;
 }
-/* line 99, ../sass/main.scss */
+/* line 142, ../sass/main.scss */
 #intro h1 {
   color: #fff;
   text-shadow: 3px 3px 5px black;
 }
-/* line 103, ../sass/main.scss */
+/* line 146, ../sass/main.scss */
 #intro p {
   font-size: 1.5em;
 }
 
-/* line 107, ../sass/main.scss */
+/* line 150, ../sass/main.scss */
+#portfolio {
+  display: none;
+}
+
+/* line 153, ../sass/main.scss */
 .back {
   margin: 50px;
   position: fixed;
-  display: none;
 }
-/* line 111, ../sass/main.scss */
+/* line 156, ../sass/main.scss */
 .back button {
   font-weight: 100;
   font-size: 1em;
@@ -129,102 +190,44 @@ footer p {
   border-color: white;
   width: 75px;
   height: 75px;
-}
-
-/* line 121, ../sass/main.scss */
-#topbar {
-  font-family: 'Roboto Slab';
-  width: 100%;
-  display: none;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 25px;
-  max-width: 1000px;
-  border-bottom-right-radius: 30px;
-  border-bottom-left-radius: 30px;
-  background-color: #FFF;
   box-shadow: 0 0 15px black;
   -webkit-box-shadow: 0 0 15px black;
   -moz-box-shadow: 0 15px black;
-  background-color: rgba(255, 255, 255, 0.2);
-  padding-bottom: 20px;
-}
-/* line 122, ../sass/main.scss */
-#topbar h1 {
-  color: #191919;
-}
-/* line 125, ../sass/main.scss */
-#topbar h3 {
-  color: #000;
 }
 
-/* line 145, ../sass/main.scss */
-.title {
-  width: 580px;
-  text-align: center;
-  height: auto;
-}
-/* line 149, ../sass/main.scss */
-.title hr {
-  width: 400px;
-}
-/* line 152, ../sass/main.scss */
-.title h1 {
-  font-size: 4em;
-  margin-bottom: -5px;
-  margin-top: 0px;
-  padding-top: 10px;
-  padding-top: 10px;
-}
-/* line 159, ../sass/main.scss */
-.title h2 {
-  font-size: 1.3em;
-  font-family: 'Courier New';
-  padding: 0px;
-  font-weight: 100;
-  margin-bottom: 7px;
-  margin-top: 0px;
-}
-/* line 167, ../sass/main.scss */
-.title h3 {
-  margin: 10px;
-  margin-top: 0px;
-}
-
-/* line 173, ../sass/main.scss */
+/* line 168, ../sass/main.scss */
 .links p {
   margin: 0px;
   text-align: center;
   margin-top: 10px;
   font: 1.1em;
 }
-/* line 179, ../sass/main.scss */
+/* line 174, ../sass/main.scss */
 .links a {
   margin: 0px;
   text-align: center;
   font-size: 1.1em;
 }
 
-/* line 185, ../sass/main.scss */
+/* line 180, ../sass/main.scss */
 .content {
   width: 920px;
   height: auto;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
-  display: none;
 }
-/* line 193, ../sass/main.scss */
+/* line 187, ../sass/main.scss */
 .content h3 {
   font-family: 'sanchez';
   font-size: 2em;
   margin-bottom: 0px;
 }
-/* line 198, ../sass/main.scss */
+/* line 192, ../sass/main.scss */
 .content p {
   font-family: 'Roboto Slab', 'Courier';
 }
-/* line 201, ../sass/main.scss */
+/* line 195, ../sass/main.scss */
 .content #discuss {
   margin: auto;
   width: 600px;
@@ -234,16 +237,17 @@ footer p {
   -webkit-box-shadow: 0 0 15px black;
   -moz-box-shadow: 0 15px black;
 }
-/* line 202, ../sass/main.scss */
+/* line 196, ../sass/main.scss */
 .content #discuss p, .content #discuss h3 {
   margin: 10px;
   padding: 10px;
 }
 
-/* line 213, ../sass/main.scss */
+/* line 207, ../sass/main.scss */
 .newpost {
   background-color: white;
   min-height: 350px;
+  max-height: 350px;
   height: auto;
   width: 200px;
   float: left;
@@ -252,17 +256,17 @@ footer p {
   -webkit-box-shadow: 0 0 15px black;
   -moz-box-shadow: 0 15px black;
 }
-/* line 221, ../sass/main.scss */
+/* line 216, ../sass/main.scss */
 .newpost p {
   font-weight: 100;
   margin-top: 0px;
 }
-/* line 225, ../sass/main.scss */
+/* line 220, ../sass/main.scss */
 .newpost img {
   height: auto;
   width: 200px;
 }
-/* line 229, ../sass/main.scss */
+/* line 224, ../sass/main.scss */
 .newpost h1 {
   font-family: 'Sanchez';
   font-weight: 401;
@@ -272,14 +276,14 @@ footer p {
   margin-bottom: 5px;
   color: #2f2f2f;
 }
-/* line 238, ../sass/main.scss */
+/* line 233, ../sass/main.scss */
 .newpost .extract {
   margin: 15px;
   margin-top: 6px;
   height: auto;
 }
 
-/* line 245, ../sass/main.scss */
+/* line 241, ../sass/main.scss */
 .btn {
   display: inline-block;
   border-radius: 30px;
@@ -288,41 +292,49 @@ footer p {
   padding: 0;
   margin-top: 5px;
   margin-bottom: 5px;
-  box-shadow: 0 0 15px black;
-  -webkit-box-shadow: 0 0 15px black;
-  -moz-box-shadow: 0 15px black;
 }
 
-/* line 256, ../sass/main.scss */
+/* line 250, ../sass/main.scss */
 .sm {
   width: 10%;
 }
 
-/* line 260, ../sass/main.scss */
+/* line 253, ../sass/main.scss */
 .md {
   width: 20%;
 }
 
-/* line 264, ../sass/main.scss */
+/* line 256, ../sass/main.scss */
 .lg {
   width: 40%;
 }
 
-/* line 268, ../sass/main.scss */
+/* line 259, ../sass/main.scss */
 .cta {
+  text-shadow: 1px 1px 1px black;
+  font-size: 1em;
+  font-style: italic;
+  font-family: 'roboto slab';
+  font-weight: 400;
   background-color: #ff8923;
   color: white;
   transition: .2s ease;
+  box-shadow: 0 0 15px black;
+  -webkit-box-shadow: 0 0 15px black;
+  -moz-box-shadow: 0 15px black;
 }
-/* line 272, ../sass/main.scss */
+/* line 269, ../sass/main.scss */
 .cta:hover {
-  background-color: #ff7b09;
+  background-color: #ef6f00;
   transition: .2s ease;
 }
 
-/* line 279, ../sass/main.scss */
+/* line 276, ../sass/main.scss */
 .ghost {
+  text-shadow: 1px 1px 1px black;
   background-color: transparent;
+  border-style: double;
+  border-width: thick;
   color: #ff8923;
   border: 1px solid #ff8923;
   transition: .2s ease;

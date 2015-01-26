@@ -22,8 +22,7 @@ $(document).ready(function () {
     });
     
     $('.back').click(function (back) {
-        $('.back').slideUp();
-        $('.content').slideUp(400, introSlide());
+        $('#portfolio').slideUp(400, introSlide());
     });
 
     function introSlide(){
@@ -31,8 +30,6 @@ $(document).ready(function () {
     }
 
     function portSlide(){
-        $('.content').slideDown();
-        $('.back').slideDown();       
-        //#topba
+        $('#portfolio').slideDown();       
     };
 });
