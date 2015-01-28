@@ -206,9 +206,8 @@ footer {
 }
 .newpost {
     background-color: white;
-    min-height: 350px;
-    max-height: 350px;
-    height: auto;
+    min-height:355px;
+    max-height:355px;
     width: 200px;
     float: left;
     margin: 15px;
@@ -216,6 +215,7 @@ footer {
     p {
         font-weight: 100;
         margin-top: 0px;
+        margin-bottom:2px;
     }
     img {
         height: auto;

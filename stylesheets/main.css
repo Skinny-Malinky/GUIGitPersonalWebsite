@@ -246,9 +246,8 @@ footer p {
 /* line 207, ../sass/main.scss */
 .newpost {
   background-color: white;
-  min-height: 350px;
-  max-height: 350px;
-  height: auto;
+  min-height: 355px;
+  max-height: 355px;
   width: 200px;
   float: left;
   margin: 15px;
@@ -256,10 +255,11 @@ footer p {
   -webkit-box-shadow: 0 0 15px black;
   -moz-box-shadow: 0 15px black;
 }
-/* line 216, ../sass/main.scss */
+/* line 215, ../sass/main.scss */
 .newpost p {
   font-weight: 100;
   margin-top: 0px;
+  margin-bottom: 2px;
 }
 /* line 220, ../sass/main.scss */
 .newpost img {
