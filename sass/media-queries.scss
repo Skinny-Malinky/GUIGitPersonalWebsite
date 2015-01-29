@@ -1,0 +1,30 @@
+@media only screen and (max-width: 1000px) {
+    .content {
+        width: 460px;
+    }
+    #intro {
+        margin-top: 30%;
+        width: 600px;
+        p {
+            font-size: 1em;
+        }
+        h1 {
+            font-size: 3em;
+        }
+        button {
+            height: 35px;
+            font-size: 0.7em;
+        }
+    }
+}
+
+@media only screen and (max-width: 641px) {
+    #background {
+        background: url('../images/bglong.jpg');
+    }
+    #intro {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 460px) {}

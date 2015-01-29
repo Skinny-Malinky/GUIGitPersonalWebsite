@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1000px) {
+  /* line 2, ../sass/media-queries.scss */
+  .content {
+    width: 460px;
+  }
+
+  /* line 5, ../sass/media-queries.scss */
+  #intro {
+    margin-top: 30%;
+    width: 600px;
+  }
+  /* line 8, ../sass/media-queries.scss */
+  #intro p {
+    font-size: 1em;
+  }
+  /* line 11, ../sass/media-queries.scss */
+  #intro h1 {
+    font-size: 3em;
+  }
+  /* line 14, ../sass/media-queries.scss */
+  #intro button {
+    height: 35px;
+    font-size: 0.7em;
+  }
+}
+@media only screen and (max-width: 641px) {
+  /* line 22, ../sass/media-queries.scss */
+  #background {
+    background: url("../images/bglong.jpg");
+  }
+
+  /* line 25, ../sass/media-queries.scss */
+  #intro {
+    width: 400px;
+  }
+}
