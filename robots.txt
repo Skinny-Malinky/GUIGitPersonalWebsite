@@ -10,3 +10,5 @@ Disallow: /dixd.html
 Disallow: /cropshare.html
 Disallow: /barnbrook.html
 Disallow: /anathat.html
+Disallow: /drimlike/*
+Disallow: /wolffolins/*

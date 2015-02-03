@@ -355,10 +355,18 @@ footer {
 }
 
 .middle {
-    margin-top: 30px;
-    width: 595px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 30px;
+    }
+    object {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
 }
 
 #composite {
